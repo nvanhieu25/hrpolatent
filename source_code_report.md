@@ -240,7 +240,7 @@ flowchart TD
     E --> F[6. Load & Preprocess Dataset]
     F --> G[7. Create GRPOTrainer]
     G --> H[8. Patch Optimizer LRs]
-    H --> I[9. trainer.train()]
+    H --> I["9. trainer.train()"]
 ```
 
 #### Khác biệt giữa các script:
